@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do Pagamento</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="resumoContainer">
+        <h1>Resumo do Pagamento</h1>
+        <p id="nome"></p>
+        
+        <h2>Serviços Selecionados:</h2>
+        <div id="servicosSelecionadosContainer"></div>
+        
+        <h3>Total a Pagar: R$ <span id="total"></span></h3>
+        
+        <h3>Forma de Pagamento:</h3>
+        <select id="formaPagamento">
+            <option value="credito">Crédito</option>
+            <option value="debito">Débito</option>
+            <option value="pix">Pix</option>
+            <option value="avista">À Vista</option>
+        </select>
+        
+        <button id="confirmarPagamento">Confirmar Pagamento</button>
+        <p id="mensagemPagamento"></p>
+    </div>
+
+    <script src="assets/js/resumo_pagamento.js"></script> <!-- Inclua seu arquivo JavaScript -->
+</body>
+</html>

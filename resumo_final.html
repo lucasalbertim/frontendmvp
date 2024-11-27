@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Pagamento</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Confirmação de Pagamento</h1>
+        </header>
+
+        <div id="resumoPagamento">
+            <p id="nomeCliente"></p>
+            <p><strong>Total Pago:</strong> R$ <span id="totalPago"></span></p>
+            <p><strong>Forma de Pagamento:</strong> <span id="formaPagamento"></span></p>
+            
+            <h3>Serviços Selecionados:</h3>
+            <div id="servicosSelecionadosContainer"></div>
+
+            <p id="mensagemPagamento"></p>
+
+            <button id="finalizarPagamento">Finalizar</button>
+        </div>
+    </div>
+
+    <script src="assets/js/resumoFinal.js"></script>
+</body>
+</html>

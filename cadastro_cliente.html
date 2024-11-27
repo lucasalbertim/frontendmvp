@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Cliente</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Cliente</h1>
+        <form id="cadastroForm">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" required>
+
+            <label for="telefone">Número de Telefone:</label>
+            <input type="text" id="telefone" required>
+
+            <button type="button" onclick="cadastroCliente()">Cadastrar</button>
+            <button type="button" onclick="window.location.href='login_cliente.html'">Cancelar</button>
+        </form>
+    </div>
+
+    <script src="assets/js/cadastro_cliente.js"></script>
+</body>
+</html>

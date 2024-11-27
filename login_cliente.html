@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do Cliente</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login do Cliente</h1>
+        <form id="login-form">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF">
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            
+            <button type="button" onclick="loginCliente()">Entrar</button>
+            <button type="button" onclick="window.location.href='cadastro_cliente.html'">Criar Conta</button>
+        </form>
+        <p id="login-message"></p>
+    </div>
+    <script src="assets/js/cliente.js"></script>
+</body>
+</html>
